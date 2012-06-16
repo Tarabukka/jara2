@@ -1,0 +1,7 @@
+<?php
+	define("jara2_mysql_hostname", "<<mysql_hostname>>");
+	define("jara2_mysql_username", "<<mysql_username>>");
+	define("jara2_mysql_password", "<<mysql_password>>");
+	define("jara2_mysql_database", "<<mysql_database>>");
+	define("jara2_table_prefix", "<<table_prefix>>");
+?>

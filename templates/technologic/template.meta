@@ -1,0 +1,10 @@
+; Technologic Template
+; This file is for forward compatibility only.
+meta_type=template
+meta_version=1.0
+key=technologic
+full_name=Technologic
+author=Xanti Software and Services
+author_url=http://jara.xantiz.com/
+version=1.0
+version_for=2.0
