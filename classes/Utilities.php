@@ -8,6 +8,9 @@
 	*/
 	
 	class Utilities {
+		const SYSTEM_CHECK_DB_CONNECT_FAILED = 1;
+		const SYSTEM_CHECK_SUCCESS = 0;
+
 		public static function RealPrefix() {
 			return str_replace('\\', '/', dirname(__FILE__));
 		}
@@ -17,14 +20,10 @@
 				DB::Get();
 			}
 			catch(DBConnectionException $ex) {
-				return 1;
+				return self::SYSTEM_CHECK_DB_CONNECT_FAILED;
 			}
-			
-			if(!file_exists(self::RealPrefix() . '/../templates/' . Settings::Get('template'))) {
-				return 2;
-			}
-			
-			return 0;
+
+			return self::SYSTEM_CHECK_SUCCESS;
 		}
 		
 		public static function DeterminePlural($word, $number) {

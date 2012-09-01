@@ -1,25 +1,20 @@
 jara2
-====
+=====
 
-This is the old version of Jara, Jara v2.0. There is currently no supported version of Jara.
+Jara v2.1 is a lightweight blogging package that runs on PHP 5.3.x and MySQL 5.1.x. Older versions of PHP and MySQL might work, but I do not support them.
 
-This code was written from April to July 2010 and released in August 2010.
+Its deprecated predecessor, Jara v2.0, was released in August 2010 after development work in the preceding months, and was released under the ISC licence.
 
-License
-===
+License: Apache License 2.0
+---------------------------
 
-Copyright (C) Xanti Software and Services, 2009-2010. All rights reserved.
+Copyright 2012 Tarabukka.
 
-Permission to use, copy, modify, and/or distribute this software for any
-purpose with or without fee is hereby granted, provided that the above
-copyright notice and this permission notice appears in all copies.
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
 
-THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
-WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
-MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
-ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
-WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
-ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
-OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+   http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
 
 Some icons used in Jara are Copyright (C) Yusuke Kamiyamane <http://www.yusukekamiyamane.com>. All rights reserved. Icons licensed under a Creative Commons Attribution 3.0 license.

@@ -21,6 +21,10 @@
 				}
 			}
 		}
+
+		public static function Installed() {
+			return (! defined('jara2_not_installed'));
+		}
 		
 		public static function GetAll() {
 			return self::$data;

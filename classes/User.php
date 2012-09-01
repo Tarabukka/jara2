@@ -51,6 +51,7 @@
 		
 		public static function LoggedIn() {
 			self::StartSession();
+			
 			return isset($_SESSION['jara_user']);
 		}
 		

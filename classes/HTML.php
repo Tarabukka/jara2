@@ -3,7 +3,7 @@
 		Jara, the open source, lightweight PHP and MySQL blogging platform, v2.0-RELEASE
 		classes/HTML.php - Templating and output control
 		
-		Copyright (C) Xanti Software and Services 2009-2010.
+		Copyright (C) Tarabukka, 2012.
 		See _readme.txt for licensing information.
 	*/
 	
@@ -21,7 +21,7 @@
 		
 		public static function ParseTemplate($template_name, $vars = array(), $conds = array()) {
 			$template = file_get_contents(Utilities::RealPrefix() . '/../templates/' . Settings::Get('template') . '/'.$template_name.'.tpl');
-
+			
 			$vars['blog_url'] = Settings::Get('blog_url');
 			$vars['blog_title'] = Settings::Get('blog_title');
 			$vars['template'] = Settings::Get('template');
